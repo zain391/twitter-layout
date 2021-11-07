@@ -3,12 +3,44 @@
     padding: 0px;
 }
 .left-side-bar{
-    width: 200px;
+    /* background-color: rgb(237, 243, 244); */
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
+    height: 640px;
 }
 .l-side-img{
-    margin: 5px;
-    width: 78px;
-    height: 78px;
+    margin: 12px;
+    width: 32px;
+    height: 32px;
+}
+.l-side-img:hover{
+    background-color: rgb(13, 24, 32);
+}
+.btn{
+    /* font-size: 30px ; */
+    margin-left: 15px;
+    width: 220px;
+    height: 60px;
+}
+.text{
+    font-size: 20px;
+    font-weight: 900;
+}
+.text:hover{
+    /* border-radius: ; */
+    background-color: rgb(230, 223, 223);
+}
+.profile{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+a{
+    background-color: rgb(250, 250, 250);
+}
+a:hover{
+    border:1px solid;
+    border-radius: 30px;
 }
