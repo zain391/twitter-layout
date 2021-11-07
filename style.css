@@ -9,7 +9,7 @@
     flex-direction: column;
     overflow: scroll;
     height: 900px;
-    /* position: fixed; */
+    position: sticky;
 }
 .l-side-img{
     margin: 12px;
@@ -52,4 +52,10 @@ a:hover{
 }
 .img{
     margin-left: 30px;
+}
+.right-bar{
+    /* background-color:rgb(223, 232, 234); */
+}
+.embed{
+    margin-left: 100px;
 }
