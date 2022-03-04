@@ -13,15 +13,30 @@
         let findName="ali";
         for(let i=0;i<arr.length;i++){
             if(arr[i]==findName){
-                console.log(i);
+                console.log("index",i);
             }else{
                 console.log(-1)
             }
         }
 
         // binary sorting
-        let arr=[1,2,3,4,5,6,7,8];
-        // 
+        let arr2=[1,2,3,4,5,6,7,8,9];
+        // first we will compare with the midle element
+        // so we need two things here first the value to be compared and second the index of middle 
+        // element
+        
+        if((arr2.length/2)%2==0){
+        let middleIndex=arr2.length/2;
+        console.log(middleIndex);
+        console.log(typeof(middleIndex));
+        }else{
+            arr2.unshift(0);
+        let middleIndex=arr2.length/2;
+
+        console.log(middleIndex);
+        console.log(typeof(middleIndex));
+        }
+        // now we will find the required element 
 
 
 
